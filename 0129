@@ -1,1 +1,28 @@
-01/29/2025
+1.A Java variable is a container that holds data.dataType variableName = value;
+2.Primitive Data Types: byte, short, int, long, float, double, char, boolean； 
+Reference Data Types: String, Arrays, Objects；
+3.byte, short, int, long, float, double, char, boolean
+4.A wrapper class is an object representation of a primitive data type, allowing primitives to be used as objects.
+Collections do not support primitive types.Provide additional methods like parseInt(), toString()
+5.Pass by Value: A copy of the value is passed. Changes do not affect the original value (used for primitive types).
+Pass by Reference: A reference to the actual object is passed. Changes affect the original object (used for objects and arrays).
+6.An immutable class is a class whose objects cannot be modified once created.
+7.Declare the class as final to prevent subclassing.
+Mark all fields as private final to ensure immutability.
+Do not provide setter methods.
+Initialize fields via a constructor.
+8.The String pool is a special memory area in Java that stores unique string literals to prevent duplicate objects.
+9.System.out.println(5 & 6); // 4
+System.out.println(5 | 6); // 7
+System.out.println(5 ^ 6); // 3
+10.Without break, the execution falls through to the next case.
+11.private: Within the class only
+   default: Within the same package
+   protected: Same package + subclasses
+   public: everywhere
+12.  Static field: Shared among all instances of the class.
+     Static method: Can be called without creating an object.
+13.public → Allows JVM to access it from anywhere.
+   static → JVM calls it without creating an object.
+   void → Does not return a value.
+   String[] args → Accepts command-line arguments.
